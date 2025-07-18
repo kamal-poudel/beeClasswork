@@ -1,6 +1,6 @@
 const fs = require("fs");
 let arr=[]
-fs.readFile("../write/data.txt","utf-8",(err,data)=>{
+fs.readFile("./data.txt","utf-8",(err,data)=>{
     if(err){
         return console.log(err);
     }
